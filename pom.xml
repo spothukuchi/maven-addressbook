@@ -496,12 +496,12 @@
     <repository>
       <id>spring-releases</id>
       <name>spring-releases</name>
-      <url>http://nexus.example.com:8081/nexus/content/repositories/spring-releases/</url>
+      <url>http://172.31.39.103:8081/nexus/content/repositories/spring-releases/</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
-      <url>http://nexus.example.com:8081/nexus/content/repositories/spring-snapshots/</url>
+      <url>http://172.31.39.103:8081/nexus/content/repositories/spring-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 	
