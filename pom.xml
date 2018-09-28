@@ -6,7 +6,7 @@
     <artifactId>addressbook</artifactId>
     <packaging>war</packaging>
     <!--<version>2.4</version>--> 
-    <version>2.9.4-SNAPSHOT</version> 
+    <version>2.9.5-SNAPSHOT</version> 
     <name>Vaadin Addressbook example</name>
 
     <properties>
@@ -224,7 +224,7 @@
         </activation>
         <properties>
             <tomcat-server>remote_tomcat</tomcat-server>
-            <tomcat-url>http://ip-172-31-36-139.us-east-2.compute.internal:8080/manager</tomcat-url>
+            <tomcat-url>http://ip-172-31-36-139.us-east-2.compute.internal:8080/manager/html</tomcat-url>
         </properties>
     </profile>
         <profile>
