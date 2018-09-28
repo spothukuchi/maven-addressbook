@@ -155,6 +155,7 @@
                 <configuration>
                     <server>${tomcat-server}</server>
                     <url>${tomcat-url}</url>
+                    <path>${tomcat-app-path}</path>
                 </configuration>
             </plugin>
             <plugin>
@@ -209,6 +210,7 @@
             <properties>
                 <tomcat-server>tomcat-remote</tomcat-server>
                 <tomcat-url>http://ip-172-31-36-139.us-east-2.compute.internal:8080/manager/html</tomcat-url>
+                <tomcat-app-path>/addressbook</tomcat-app-path>
             </properties>
         </profile>
         <profile>
